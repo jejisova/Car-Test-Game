@@ -72,7 +72,7 @@ public class RCC_UIController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
 	void LateUpdate(){
 
-		if (button && !button.interactable) {
+		if (button) {
 			
 			pressing = false;
 			input = 0f;
