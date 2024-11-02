@@ -2,42 +2,30 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class CarCreator : MonoBehaviour
 {   
     [SerializeField] GameObject EvoX;
-    [SerializeField] GameObject SilviaS15;
     GameObject car;
-
-    [SerializeField] GameObject floor;
     
     void Awake()
     {  
-       CreartEvoX();
+       CreateCar(EvoX);
        SendObjectToCamera();
     }
-
-    public void CreartEvoX()
+    
+    public void CreateCar(GameObject selectedCar)
     { 
-      Destroy(car);
-      car =  Instantiate(EvoX,transform.position,transform.rotation);
+      if(car)
+      {Destroy(car);}
+
+      car =  Instantiate(selectedCar,transform.position,transform.rotation);
       SendObjectToCamera();
-       
-       PlayerPrefs.SetInt("PlayerScore", 100);
-       int score = PlayerPrefs.GetInt("PlayerScore");
-
+      PlayerPrefs.SetString("SelectedCar", selectedCar.name);
     }
-
-    public void CreateSilviaS15()
-    { 
-      Destroy(car);
-      car =  Instantiate(SilviaS15,transform.position,transform.rotation);
-      SendObjectToCamera();
-      PlayerPrefs.SetInt("PlayerScore", 100);
-      int score = PlayerPrefs.GetInt("PlayerScore");
-    }
-
+    
 
     void SendObjectToCamera()
     {

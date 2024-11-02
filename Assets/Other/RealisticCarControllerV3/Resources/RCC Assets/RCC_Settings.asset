@@ -228,18 +228,18 @@ MonoBehaviour:
     sidewaysAsymptoteSlip: 0.2
     sidewaysAsymptoteValue: 2
   useAutomaticGear: 1
-  useAutomaticClutch: 1
+  useAutomaticClutch: 0
   runEngineAtAwake: 1
-  autoReverse: 1
+  autoReverse: 0
   autoReset: 1
   contactParticles: {fileID: 193332, guid: 863b5201aede3aa438ac7d962625d663, type: 3}
-  units: 0
+  units: 1
   uiType: 0
   useTelemetry: 0
   mobileController: 0
   mobileControllerEnabled: 1
   steeringWheelEnabled: 0
-  UIButtonSensitivity: 10
+  UIButtonSensitivity: 1
   UIButtonGravity: 10
   gyroSensitivity: 2
   useLightsAsVertexLights: 1
