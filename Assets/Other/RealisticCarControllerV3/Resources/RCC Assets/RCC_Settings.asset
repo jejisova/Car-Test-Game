@@ -233,13 +233,13 @@ MonoBehaviour:
   autoReverse: 0
   autoReset: 1
   contactParticles: {fileID: 193332, guid: 863b5201aede3aa438ac7d962625d663, type: 3}
-  units: 1
+  units: 0
   uiType: 0
   useTelemetry: 0
   mobileController: 0
-  mobileControllerEnabled: 1
+  mobileControllerEnabled: 0
   steeringWheelEnabled: 0
-  UIButtonSensitivity: 1
+  UIButtonSensitivity: 10
   UIButtonGravity: 10
   gyroSensitivity: 2
   useLightsAsVertexLights: 1

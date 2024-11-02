@@ -1880,7 +1880,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.6, y: 2.6, z: 2.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8743334250313139847}
@@ -1918,8 +1918,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5106215107675421382}
   serializedVersion: 4
-  m_Mass: 2000
-  m_Drag: 0.01
+  m_Mass: 1200
+  m_Drag: 0.1
   m_AngularDrag: 0.5
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2012,41 +2012,41 @@ MonoBehaviour:
   steerAngle: 40
   highspeedsteerAngle: 5
   highspeedsteerAngleAtspeed: 120
-  antiRollFrontHorizontal: 10000
-  antiRollRearHorizontal: 10000
-  antiRollVertical: 10000
+  antiRollFrontHorizontal: 6500
+  antiRollRearHorizontal: 5500
+  antiRollVertical: 5000
   rigid: {fileID: 0}
   COM: {fileID: 2210857539165869443}
-  brakeTorque: 2000
-  downForce: 25
+  brakeTorque: 2500
+  downForce: 20
   speed: 0
-  maxspeed: 240
+  maxspeed: 230
   engineTorqueCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 1000
-      value: 150
-      inSlope: 0.033333335
-      outSlope: 0.033333335
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 5500
-      value: 300
-      inSlope: -0.016666668
-      outSlope: -0.016666668
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 7000
+      time: 900
       value: 200
-      inSlope: -0.06666667
-      outSlope: -0.06666667
+      inSlope: 0.06451613
+      outSlope: 0.06451613
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 4000
+      value: 400
+      inSlope: 0.013210444
+      outSlope: 0.013210444
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 7500
+      value: 266.66666
+      inSlope: -0.03809524
+      outSlope: -0.03809524
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -2055,21 +2055,21 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   autoGenerateEngineRPMCurve: 1
-  maxEngineTorque: 300
-  maxEngineTorqueAtRPM: 5500
-  minEngineRPM: 1000
-  maxEngineRPM: 7000
+  maxEngineTorque: 400
+  maxEngineTorqueAtRPM: 4000
+  minEngineRPM: 900
+  maxEngineRPM: 7500
   engineRPM: 0
   engineRPMRaw: 0
-  engineInertia: 0.15
+  engineInertia: 0.08
   useRevLimiter: 1
   useExhaustFlame: 1
   engineRunning: 0
   useSteeringLimiter: 1
   useCounterSteering: 1
   useSteeringSensitivity: 1
-  counterSteeringFactor: 0.5
-  steeringSensitivityFactor: 0.5
+  counterSteeringFactor: 0.3
+  steeringSensitivityFactor: 0.6
   oldSteeringInput: 0
   steeringDifference: 0
   useFuelConsumption: 0
@@ -2103,22 +2103,22 @@ MonoBehaviour:
   totalGears: 6
   currentGear: 0
   NGear: 0
-  finalRatio: 3.23
-  gearShiftingDelay: 0.35
-  gearShiftingThreshold: 0.75
-  clutchInertia: 0.25
-  gearShiftUpRPM: 6500
-  gearShiftDownRPM: 3500
+  finalRatio: 4.1
+  gearShiftingDelay: 0.12
+  gearShiftingThreshold: 0.85
+  clutchInertia: 0.15
+  gearShiftUpRPM: 7200
+  gearShiftDownRPM: 3000
   changingGear: 0
   direction: 1
   launched: 0
   audioType: 0
-  autoCreateEngineOffSounds: 1
-  engineStartClip: {fileID: 0}
+  autoCreateEngineOffSounds: 0
+  engineStartClip: {fileID: 8300000, guid: 8d3ddfbc69660b342b48f88b496dedee, type: 3}
   engineClipHigh: {fileID: 0}
   engineClipMed: {fileID: 0}
   engineClipLow: {fileID: 0}
-  engineClipIdle: {fileID: 0}
+  engineClipIdle: {fileID: 8300000, guid: 0aea2e655d890cf4b9810bce9ea8ea5f, type: 3}
   engineClipHighOff: {fileID: 0}
   engineClipMedOff: {fileID: 0}
   engineClipLowOff: {fileID: 0}
@@ -2126,7 +2126,7 @@ MonoBehaviour:
   maxEngineSoundPitch: 1.75
   minEngineSoundVolume: 0.05
   maxEngineSoundVolume: 0.85
-  idleEngineSoundVolume: 0.85
+  idleEngineSoundVolume: 0.777
   engineSoundPosition: {x: 0, y: 0, z: 1.5}
   gearSoundPosition: {x: 0, y: -0.5, z: 0.5}
   turboSoundPosition: {x: 0, y: 0, z: 1.5}
