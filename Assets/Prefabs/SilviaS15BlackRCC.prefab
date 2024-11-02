@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5422968309123483891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2181,7 +2181,7 @@ MonoBehaviour:
     meshFilters: []
     detachableParts: []
     lights: []
-  useDeformation: 1
+  useDeformation: 0
   useCollisionParticles: 1
   useCollisionAudio: 1
   maximumContactSparkle: 5
@@ -2225,7 +2225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1945607191261271630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2258,7 +2258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7107389931980390195}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3202,7 +3202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8354312951772409999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3591,7 +3591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8240752430667430315}
   - component: {fileID: 3545051863206839390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WheelCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
