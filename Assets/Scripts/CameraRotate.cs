@@ -15,7 +15,8 @@ public class CameraRotate : MonoBehaviour
     private Vector3 velocity = Vector3.zero; 
 
     void Start()
-    {
+    {   
+        
         if (target == null)
         {
             Debug.LogError("Цель для камеры не назначена");
@@ -25,6 +26,11 @@ public class CameraRotate : MonoBehaviour
         Vector3 angles = transform.eulerAngles;
         currentX = angles.y;
         currentY = angles.x;
+    }
+
+    public void SetTarget(GameObject CurrentTarget)
+    {
+        target = CurrentTarget.transform;
     }
 
     void Update()
