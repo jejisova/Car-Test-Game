@@ -26,7 +26,7 @@ public class FinishGame : MonoBehaviour
 
     private float CalculateScore()
     {
-        return Time.time; // Здесь можно изменить логику для подсчета очков
+        return Time.timeSinceLevelLoad; 
     }
 
     private IEnumerator ShowScore(float finalScore)

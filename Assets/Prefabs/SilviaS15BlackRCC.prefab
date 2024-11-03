@@ -2012,13 +2012,13 @@ MonoBehaviour:
   steerAngle: 40
   highspeedsteerAngle: 5
   highspeedsteerAngleAtspeed: 120
-  antiRollFrontHorizontal: 6500
-  antiRollRearHorizontal: 5500
-  antiRollVertical: 5000
+  antiRollFrontHorizontal: 5000
+  antiRollRearHorizontal: 4000
+  antiRollVertical: 4000
   rigid: {fileID: 0}
   COM: {fileID: 2210857539165869443}
   brakeTorque: 2500
-  downForce: 200
+  downForce: 30
   speed: 0
   maxspeed: 230
   engineTorqueCurve:
@@ -2068,7 +2068,7 @@ MonoBehaviour:
   useSteeringLimiter: 1
   useCounterSteering: 1
   useSteeringSensitivity: 1
-  counterSteeringFactor: 0.3
+  counterSteeringFactor: 0.402
   steeringSensitivityFactor: 0.6
   oldSteeringInput: 0
   steeringDifference: 0

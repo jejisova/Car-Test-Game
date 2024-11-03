@@ -996,7 +996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eef1ffd52c71d74198141e3b6a109f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCar: {fileID: 0}
+  currentCar: {fileID: 9175298806916070779, guid: e2fccfa4d1d96cb4ebd7e373b9e614b2, type: 3}
   SilviaS15BlackRCC: {fileID: 5106215107675421382, guid: 9b311b491fa792b4a92aa072cec626fe, type: 3}
   EvoXRedRCC: {fileID: 9175298806916070779, guid: e2fccfa4d1d96cb4ebd7e373b9e614b2, type: 3}
 --- !u!4 &1294259769
