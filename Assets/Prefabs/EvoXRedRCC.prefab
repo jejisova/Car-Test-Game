@@ -3977,7 +3977,7 @@ MonoBehaviour:
   rigid: {fileID: 0}
   COM: {fileID: 4608917429405285846}
   brakeTorque: 3000
-  downForce: 30
+  downForce: 240
   speed: 0
   maxspeed: 240
   engineTorqueCurve:

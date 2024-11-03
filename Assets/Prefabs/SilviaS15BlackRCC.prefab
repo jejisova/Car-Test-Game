@@ -895,7 +895,7 @@ Transform:
   m_GameObject: {fileID: 3640238085076646076}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.569, y: 0.59, z: 2.44}
+  m_LocalPosition: {x: -0.642, y: 0.723, z: 2.387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1660,7 +1660,7 @@ Transform:
   m_GameObject: {fileID: 4816401229984679529}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.383, y: 0.635, z: 2.44}
+  m_LocalPosition: {x: 0.569, y: 0.718, z: 2.338}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1880,7 +1880,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.82, y: 0.82, z: 0.82}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8743334250313139847}
@@ -2018,7 +2018,7 @@ MonoBehaviour:
   rigid: {fileID: 0}
   COM: {fileID: 2210857539165869443}
   brakeTorque: 2500
-  downForce: 20
+  downForce: 200
   speed: 0
   maxspeed: 230
   engineTorqueCurve:
@@ -2153,7 +2153,7 @@ MonoBehaviour:
   fuelInput: 0
   cutGas: 0
   permanentGas: 0
-  lowBeamHeadLightsOn: 0
+  lowBeamHeadLightsOn: 1
   highBeamHeadLightsOn: 0
   indicatorsOn: 0
   indicatorTimer: 0
